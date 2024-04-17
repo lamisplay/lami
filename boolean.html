@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="inpu">
+    <button onclick="sub()">click</button>
+    <h1 id="demo"></h1>
+</body>
+</html>
+<script>
+    //booleans
+
+let lighton = true
+let truvalue = 4 > 3
+
+let input1 = document.getElementById('inpu')
+let demo = document.getElementById('demo')
+function sub() {
+    demo.innerHTML += input1.value
+}
+
+let numone = 3
+let numtwo = 2
+let sum = numone + numtwo
+console.log(sum);
+
+// == equal to
+// != not equal to
+//&& and
+// ! 
+// ||
+console.log(3 == 3);
+console.log(3 != 2);
+console.log(3 < 2);
+
+//logical operator
+const check = 4 > 3 && 10 > 5
+console.log(check);
+
+
+
+</script>

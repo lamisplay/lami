@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <input type="text" id="input1">
+    <button onclick="submit()">click</button>
+    <h1 id="demo"></h1>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let input = document.getElementById("input1")
+    let demo = document.getElementById("demo")
+  let firstname = 'lami'
+  let lastname = 'dan'
+  let country = 'finland'
+  let city = 'france'
+  let job = 'teacher'
+  let age = 250
+
+  let personinfotwo = `i am ${firstname}. i am ${age}. i live in ${country}.`
+  console.log(personinfotwo);
+  // length
+  
+  console.log(country.length);
+
+  //uppercase
+  console.log(country.toUpperCase());
+  console.log(country.toLowerCase())
+  
+  //substr
+  console.log(country.substr(3,4));
+
+  //substrings
+  console.log(country.substring(3,7))
+
+  //split
+  let js = '30 days of java'
+  console.log(js.split(' '));
+
+  // trim
+       console.log(js.trim(' '));
+       //include
+       console.log(js.includes('days'));
+
+  //replace
+      console.log(js.replace('java','fuck'));
+      console.log(country.replace('fin','Is'))
+
+    //
+
+    let th = "lami alex"
+    console.log(th.length);
+
+    //charAT
+
+    console.log(js.charAt(14));
+    let lastindex = js.length -1
+    console.log(js.charAt(lastindex));
+    //INDEXOF
+    console.log(js.indexOf('days'));
+    console.log(js.indexOf('Days'));
+    console.log(js.indexOf('java'));
+
+    console.log(js.indexOf('of'));
+
+    // Last index
+    console.log(js.lastIndexOf("java"));
+    // let loadinf = false
+
+    // if (loadinf == false) {
+    //     alert("LAMI")
+    // }
+    //CONCAT
+    let dan = "30"
+    console.log(dan.concat("days","of", "javascript"));
+    let string = 'is the best to in this love world'
+       console.log(string.startsWith("Love"));
+       console.log(string.startsWith("love"));
+        console.log(string.endsWith("world"));
+        console.log(string.search("love"));
+      let re =  "love";
+      console.log(re.repeat(10));
+    //    function submit() {
+    //     if (input.value == "") {
+    //         alert("Enter your name")
+    //         return
+    //     }else{
+    //         demo.innerHTML= input.value
+    //     }
+    //    }
+
+
+    //booleans
+    let lighton = true
+    let truvalue = 4 > 3
+    console.log(truvalue);
+
+    //increment
+    //post increment
+     let y = 5
+     let z = y++
+     console.log(z);
+      //pre increment
+      let x = 3
+      let s = ++x
+      console.log(s);
+      //decrement
+      //predecreament
+      let a = 6
+      let b = a--
+      console.log(b);
+
+//pre decreasement
+let m = 9
+let n = --m
+console.log(n);
+</script>
